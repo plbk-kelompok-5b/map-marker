@@ -16,7 +16,7 @@ npx serve src
 
 Buka `http://localhost:3000` di browser.
 
-## How To Add Marker
+## Cara Menambahkan Marker
 
 1. Klik lokasi di map
 2. Isi nama lokasi di input
