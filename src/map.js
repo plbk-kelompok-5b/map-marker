@@ -58,8 +58,13 @@ document.getElementById("add-btn").addEventListener("click", function () {
 });
 
 document.getElementById("export-btn").addEventListener("click", function () {
+  if (points.length === 0) {
+    alert("Belum ada pin yang ditambahkan.");
+    return;
+  }
+
   const json = JSON.stringify(points, null, 2);
   navigator.clipboard.writeText(json).then(() => {
-    alert("JSON berhasil disalin ke clipboard.");
+    alert("JSON koordinat berhasil disalin ke clipboard.");
   });
 });
