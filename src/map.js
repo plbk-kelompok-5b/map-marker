@@ -5,16 +5,30 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 let pendingLatLng = null;
-const points = [];
+let points = [];
 
-// Klik map untuk simpan koordinat sementara
+function renderPoints() {
+  points.forEach((point) => {
+    L.marker(point.coords)
+      .addTo(map)
+      .bindPopup(`<b>${point.label}</b><br>${point.date}`);
+  });
+}
+
+// Load dari points.json saat startup
+fetch("points.json")
+  .then((res) => res.json())
+  .then((data) => {
+    points = data;
+    renderPoints();
+  });
+
 map.on("click", function (e) {
   pendingLatLng = e.latlng;
   document.getElementById("label-input").placeholder =
     `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
 });
 
-// Tombol tambah pin
 document.getElementById("add-btn").addEventListener("click", function () {
   if (!pendingLatLng) {
     alert("Klik dulu lokasi di map.");
@@ -38,21 +52,14 @@ document.getElementById("add-btn").addEventListener("click", function () {
     .bindPopup(`<b>${point.label}</b><br>${point.date}`)
     .openPopup();
 
-  // Reset
   document.getElementById("label-input").value = "";
   document.getElementById("label-input").placeholder = "Nama lokasi";
   pendingLatLng = null;
 });
 
-// Export ke JSON buat di-paste ke file atau di-commit
 document.getElementById("export-btn").addEventListener("click", function () {
   const json = JSON.stringify(points, null, 2);
-  const blob = new Blob([json], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `points-${new Date().toISOString().split("T")[0]}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
+  navigator.clipboard.writeText(json).then(() => {
+    alert("JSON berhasil disalin ke clipboard.");
+  });
 });
