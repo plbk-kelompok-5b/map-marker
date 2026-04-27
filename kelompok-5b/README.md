@@ -27,5 +27,5 @@ Buka `http://localhost:3000` di browser.
 ```bash
 git add kelompok-5b/points.json
 git commit -m "point: <nama tempat> - <tanggal>"
-git push
+git push org
 ```
