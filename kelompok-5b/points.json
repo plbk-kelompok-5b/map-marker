@@ -58,5 +58,23 @@
     "label": "Taman Bustanussalatin",
     "contributor": "Faruqi",
     "date": "2026-04-27"
+  },
+  {
+    "coords": [
+      5.522833817506106,
+      95.32383145446806
+    ],
+    "label": "Stadion Harapan Bangsa",
+    "contributor": "Nazlul",
+    "date": "2026-04-27"
+  },
+  {
+    "coords": [
+      5.564753575556356,
+      95.29397852817588
+    ],
+    "label": "Pelabuhan Ulee Lheu",
+    "contributor": "Nazlul",
+    "date": "2026-04-27"
   }
 ]
