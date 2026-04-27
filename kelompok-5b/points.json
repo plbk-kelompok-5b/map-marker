@@ -1,68 +1,119 @@
 [
   {
-    "coords": [5.570808764656487, 95.37153124809267],
+    "coords": [
+      5.570808764656487,
+      95.37153124809267
+    ],
     "label": "Masjid Jamik USK",
     "contributor": "Faruqi",
     "date": "2026-04-25"
   },
   {
-    "coords": [5.569004532045442, 95.36811411380769],
+    "coords": [
+      5.569004532045442,
+      95.36811411380769
+    ],
     "label": "Gedung A FMIPA USK",
     "contributor": "Faruqi",
     "date": "2026-04-26"
   },
   {
-    "coords": [5.529313057516406, 95.4191780090332],
+    "coords": [
+      5.529313057516406,
+      95.4191780090332
+    ],
     "label": "Bandara Sultan Iskandar Muda",
     "contributor": "Faruqi",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.5379079091165115, 95.30672907829286],
+    "coords": [
+      5.5379079091165115,
+      95.30672907829286
+    ],
     "label": "Suzuya",
     "contributor": "Faris",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.53639686265346, 95.30725479125978],
+    "coords": [
+      5.53639686265346,
+      95.30725479125978
+    ],
     "label": "Mesjid TU",
     "contributor": "Faris",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.550017498720136, 95.31364917755128],
+    "coords": [
+      5.550017498720136,
+      95.31364917755128
+    ],
     "label": "Blang Padang",
     "contributor": "Faruqi",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.549334071708365, 95.31696975231172],
+    "coords": [
+      5.549334071708365,
+      95.31696975231172
+    ],
     "label": "Taman Bustanussalatin",
     "contributor": "Faruqi",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.522833817506106, 95.32383145446806],
+    "coords": [
+      5.522833817506106,
+      95.32383145446806
+    ],
     "label": "Stadion Harapan Bangsa",
     "contributor": "Nazlul",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.564753575556356, 95.29397852817588],
+    "coords": [
+      5.564753575556356,
+      95.29397852817588
+    ],
     "label": "Pelabuhan Ulee Lheu",
     "contributor": "Nazlul",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.568273156125058, 95.37136495113374],
+    "coords": [
+      5.568273156125058,
+      95.37136495113374
+    ],
     "label": "Gedung FKIP USK",
     "contributor": "Faruqi",
     "date": "2026-04-27"
   },
   {
-    "coords": [5.570360340260391, 95.34071803092958],
+    "coords": [
+      5.570360340260391,
+      95.34071803092958
+    ],
     "label": "Kantor Gubernur Aceh",
     "contributor": "Faruqi",
+    "date": "2026-04-27"
+  },
+  {
+    "coords": [
+      5.585917657852085,
+      95.35394668579102
+    ],
+    "label": "jembatan alun naga",
+    "contributor": "Faris",
+    "date": "2026-04-27"
+  },
+  {
+    "coords": [
+      5.554860197112756,
+      95.32152414321901
+    ],
+    "label": "Suzuya swalayan",
+    "contributor": "Faris",
     "date": "2026-04-27"
   }
 ]
