@@ -24,13 +24,52 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-#label-input {
+#label-input,
+#contributor-input {
   padding: 6px;
   font-size: 14px;
 }
 
-#add-btn,
-#export-btn {
+#add-btn {
   padding: 6px 10px;
   cursor: pointer;
+}
+
+#legend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#legend h4 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+#legend ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.color-box {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.2);
 }

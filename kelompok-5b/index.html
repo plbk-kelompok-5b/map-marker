@@ -13,9 +13,13 @@
   <body>
     <div id="map"></div>
     <div id="controls">
+      <input type="text" id="contributor-input" placeholder="Nama Contributor" />
       <input type="text" id="label-input" placeholder="Nama lokasi" />
       <button id="add-btn">Tambah Pin</button>
-      <button id="export-btn">Export JSON</button>
+    </div>
+    <div id="legend" class="legend">
+      <h4>Contributor Legend</h4>
+      <ul id="legend-list"></ul>
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="./map.js"></script>
