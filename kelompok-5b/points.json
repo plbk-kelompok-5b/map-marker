@@ -151,5 +151,23 @@
     "label": "KFC Batoh",
     "contributor": "Faris",
     "date": "2026-04-28"
+  },
+  {
+    "coords": [
+      5.5358469048547265,
+      95.32804853241544
+    ],
+    "label": "masjid babut taqwa",
+    "contributor": "Faris",
+    "date": "2026-04-28"
+  },
+  {
+    "coords": [
+      5.5155568424517725,
+      95.30376382579375
+    ],
+    "label": "pasar keutapang",
+    "contributor": "Faris",
+    "date": "2026-04-28"
   }
 ]
